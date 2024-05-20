@@ -4,8 +4,8 @@
 <?php
 if(!isset($_SESSION['id']))
 {	
-    // header("Location: login.php");
-}
+     header("Location: login.php");
+} 
 ?>
 <head>
     <meta charset="UTF-8">
